@@ -2,78 +2,66 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="container mx-auto">
-      <div>
-        <h3>Our Services</h3>
+    <div className="container mx-auto px-4">
+      <div className="flex justify-center items-center">
+        <h3 className="px-5">Our Services</h3>
       </div>
-      <div className="grid md:grid-cols-2">
-        <div className="grid md:grid-rows-2 px-4 py-4">
-          <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="grid md:grid-cols-2 px-8 mt-12">
+        <div className="grid md:grid-rows-2 mx-4 ">
+          <div className="flex justify-center items-center">
+            <div className="card w-96 glass">
               <figure>
-                <img src="https://res.cloudinary.com/hamstech/images/v1631518640/Hamstech%20App/Top-Interior-Design-Trends-to-Design-Your-Dream-Home_804646102d455/Top-Interior-Design-Trends-to-Design-Your-Dream-Home_804646102d455.jpg?_i=AA" alt="Shoes" />
+                <img src="https://placeimg.com/400/225/arch" alt="car!" />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">
-                  Interior Design
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title">Life hack</h2>
+                <p>How to park your car at your garage?</p>
                 <div className="card-actions justify-end">
-                  <div className="badge badge-outline">Fashion</div>
-                  <div className="badge badge-outline">Products</div>
+                  <button className="btn btn-primary">Learn now!</button>
                 </div>
               </div>
             </div>
           </div>
-          <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="flex justify-center items-center">
+            <div className="card w-96 glass">
               <figure>
-                <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+                <img src="https://placeimg.com/400/225/arch" alt="car!" />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">
-                  Gypsum Designs
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title">Life hack</h2>
+                <p>How to park your car at your garage?</p>
                 <div className="card-actions justify-end">
-                  <div className="badge badge-outline">Fashion</div>
-                  <div className="badge badge-outline">Products</div>
+                  <button className="btn btn-primary">Learn now!</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="grid md:grid-rows-2 px-4 py-4">
-          <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="grid md:grid-rows-2">
+          <div className="flex justify-center items-center">
+            <div className="card w-96 glass">
               <figure>
-                <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+                <img src="https://placeimg.com/400/225/arch" alt="car!" />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">
-                  Wood and Tile Works
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title">Life hack</h2>
+                <p>How to park your car at your garage?</p>
                 <div className="card-actions justify-end">
-                  <div className="badge badge-outline">Fashion</div>
-                  <div className="badge badge-outline">Products</div>
+                  <button className="btn btn-primary">Learn now!</button>
                 </div>
               </div>
             </div>
           </div>
-          <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="flex justify-center items-center">
+            <div className="card w-96 glass">
               <figure>
-                <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+                <img src="https://placeimg.com/400/225/arch" alt="car!" />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">
-                  Roofing
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title">Life hack</h2>
+                <p>How to park your car at your garage?</p>
                 <div className="card-actions justify-end">
-                  <div className="badge badge-outline">Fashion</div>
-                  <div className="badge badge-outline">Products</div>
+                  <button className="btn btn-primary">Learn now!</button>
                 </div>
               </div>
             </div>
