@@ -4,84 +4,94 @@ const Services = () => {
   return (
     <div className="container mx-auto">
       <div className="flex justify-center items-center">
-        <h3 className="py-5 text-5xl">Our Services</h3>
+        <h3 className="pt-5 text-3xl font-bold md:text-5xl"><span className="text-yellow-400">Our</span> Services</h3>
       </div>
-      <div className="grid md:grid-cols-2 px-8 mt-12">
-        <div className="grid md:grid-rows-2 mx-4 ">
-          <div className="flex justify-center items-center">
-            <div className="card w-[30rem] bg-base-100 my-5 shadow-xl">
-              <figure>
-                <img
-                  className="w-[100%] object-cover h-[15vw]"
-                  src="https://res.cloudinary.com/hamstech/images/v1631518640/Hamstech%20App/Top-Interior-Design-Trends-to-Design-Your-Dream-Home_804646102d455/Top-Interior-Design-Trends-to-Design-Your-Dream-Home_804646102d455.jpg?_i=AA"
-                  alt="car!"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Interior Design</h2>
-                <p>How to park your car at your garage?</p>
-                {/* <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Learn now!</button>
-                </div> */}
-              </div>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="card w-[30rem] bg-base-100 my-5 shadow-xl">
-              <figure>
-                <img
-                  className="w-[100%] object-cover h-[15vw]"
-                  src="https://3.bp.blogspot.com/-qLhr4SO7N3I/XC33cSn4N8I/AAAAAAAAigY/hVJgrijJh5gFtjgblHxsghIX5Cz3fGxAgCEwYBhgL/s1600/Latest-gypsum-ceiling-designs-and-ideas-2019%2B%25287%2529.jpg"
-                  alt="car!"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Gypsum Designs</h2>
-                <p>How to park your car at your garage?</p>
-                {/* <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Learn now!</button>
-                </div> */}
-              </div>
-            </div>
-          </div>
+      <div className="flex justify-center items-center ">
+        <span className="w-12 h-1 mb-6 rounded-lg bg-yellow-400"></span>
         </div>
-        <div className="grid md:grid-rows-2">
-          <div className="flex justify-center items-center">
-            <div className="card w-[30rem] bg-base-100 my-5 shadow-xl">
-              <figure>
-                <img
-                  className="w-[100%] object-cover h-[15vw]"
-                  src="http://cdn.floorcoveringsinternational.com/wp-content/uploads/sites/1053/2017/07/09174524/shutterstock_45661648.jpg"
-                  alt="car!"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Wood and Tile Works</h2>
-                <p>How to park your car at your garage?</p>
-                {/* <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Learn now!</button>
-                </div> */}
-              </div>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+        <div className="mx-auto p-5">
+          <a href="#" className="block overflow-hidden rounded-2xl">
+            <img
+              alt="Office"
+              src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              className="object-cover w-full h-56"
+            />
+
+            <div className="p-4 bg-gray-900">
+              <h5 className="text-3xl md:text-4xl text-yellow-400">
+                Interior Designs
+              </h5>
+
+              <p className="mt-1 text-xs text-gray-500">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
+                nobis aliquid accusamus? Sint, sequi voluptas.
+              </p>
             </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="card w-[30rem] bg-base-100 my-5 shadow-xl">
-              <figure>
-                <img
-                  className="w-[100%] object-cover h-[15vw]"
-                  src="https://www.rexeroofing.com/rexeloads/uploads/2019/05/two-tone-stone-coated-residential-Garden-Estate.jpg"
-                  alt="car!"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Roofing</h2>
-                <p>How to park your car at your garage?</p>
-                {/* <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Learn now!</button>
-                </div> */}
-              </div>
+          </a>
+        </div>
+        <div className="mx-auto p-5">
+          <a href="#" className="block overflow-hidden rounded-2xl">
+            <img
+              alt="Office"
+              src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              className="object-cover w-full h-56"
+            />
+
+            <div className="p-4 bg-gray-900">
+              <h5 className="text-3xl md:text-4xl text-yellow-400">
+                Gypsum Designs
+              </h5>
+
+              <p className="mt-1 text-xs text-gray-500">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
+                nobis aliquid accusamus? Sint, sequi voluptas.
+              </p>
             </div>
-          </div>
+          </a>
+        </div>
+
+        <div className="mx-auto p-5">
+          <a href="#" className="block overflow-hidden rounded-2xl">
+            <img
+              alt="Office"
+              src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              className="object-cover w-full h-56"
+            />
+
+            <div className="p-4 bg-gray-900">
+
+              <h5 className="text-3xl md:text-4xl text-yellow-400">
+                Wood and Tile Works
+              </h5>
+
+              <p className="mt-1 text-xs text-gray-500">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
+                nobis aliquid accusamus? Sint, sequi voluptas.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div className="mx-auto p-5">
+          <a href="#" className="block overflow-hidden rounded-2xl">
+            <img
+              alt="Office"
+              src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              className="object-cover w-full h-56"
+            />
+
+            <div className="p-4 bg-gray-900">
+              <h5 className="text-3xl md:text-4xl text-yellow-400">
+                Roofing
+              </h5>
+
+              <p className="mt-1 text-xs text-gray-500">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
+                nobis aliquid accusamus? Sint, sequi voluptas.
+              </p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
