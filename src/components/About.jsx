@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 
 const About = () => {
   return (
-    <div name='about' className=" bg-slate-100 h-full">
+    <div name='about' className=" bg-slate-100 h-full font-Acme">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  container mx-auto">
 
       

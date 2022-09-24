@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 
 const Hero = () => {
   return (
-    <div name='hero' className="w-full h-full">
+    <div name='hero' className="w-full h-full font-Acme">
       <div className="absolute">
         <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true}>
           <div className="h-[25rem]">

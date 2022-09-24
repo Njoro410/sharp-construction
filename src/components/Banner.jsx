@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const Banner = () => {
   return (
-    <div className="p-6 py-14 bg-yellow-400 text-gray-900">
+    <div className="p-6 py-14 bg-yellow-400 text-gray-900 font-Acme">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <Marquee gradient={false} pauseOnHover={true} speed={100}>
