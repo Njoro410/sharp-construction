@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="w-full h-full">
+    <div name='testimonials' className="w-full h-full">
       <section className="my-8">
         <div className="container mx-auto flex flex-col items-center pb-6 mb-4 md:pt-4 md:px-12">
           <h1 className="text-4xl font-semibold leading-none text-center">
@@ -37,7 +37,7 @@ const Testimonials = () => {
               </svg>
             </div>
             <span className="w-12 h-1 my-2 rounded-lg bg-yellow-400"></span>
-            <p className="italic text-sm text-gray-500">Patience Kimilu</p>
+            <p className="italic text-sm text-gray-500">John Doe</p>
           </div>
           <div className="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
             <div className="relative text-center">
@@ -77,7 +77,7 @@ const Testimonials = () => {
               </svg>
             </div>
             <span className="w-12 h-1 my-2 rounded-lg bg-yellow-400"></span>
-            <p className="italic text-sm text-gray-500">Patience Kimilu</p>
+            <p className="italic text-sm text-gray-500">Jane Doe</p>
           </div>
         </div>
       </section>

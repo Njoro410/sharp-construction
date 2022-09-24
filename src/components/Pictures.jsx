@@ -22,7 +22,7 @@ const Pictures = () => {
 
   console.log(images[0]);
   return (
-    <div className="w-full h-full bg-slate-100">
+    <div name='pictures' className="w-full h-full bg-slate-100">
       <div className="container mx-auto px-8 mt-12 mb-12">
         <div className="flex justify-center items-center mt-5">
           <h1 className="text-5xl mt-5">Gallery</h1>

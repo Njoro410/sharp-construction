@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -26,19 +27,39 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <Link to="hero" smooth={true} offset={-700} duration={500}>
+                Home
+              </Link>
             </li>
             <li>
-              <a>About Us</a>
+              <Link to="about" smooth={true} offset={-150} duration={500}>
+                About Us
+              </Link>
             </li>
             <li>
-              <a>Services</a>
+              <Link
+                to="services"
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Services
+              </Link>
             </li>
             <li>
-              <a>Gallery</a>
+              <Link to="pictures" smooth={true} offset={-50} duration={500}>
+                Gallery
+              </Link>
             </li>
             <li>
-              <a>Contact Us</a>
+            <Link to="testimonials" smooth={true} offset={-100} duration={500}>
+              Testimonials
+            </Link>
+          </li>
+            <li>
+              <Link to="contact" smooth={true} duration={500}>
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
@@ -46,25 +67,42 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
-          <li>
-            <a>Home</a>
+          <li className="">
+            <Link to="hero" smooth={true} offset={-200} duration={500}>
+              Home
+            </Link>
           </li>
           <li>
-            <a>About Us</a>
+            <Link to="about" smooth={true} offset={-200} duration={500}>
+              About Us
+            </Link>
           </li>
           <li>
-            <a>Services</a>
+            <Link to="services" smooth={true} offset={-50} duration={500}>
+              Services
+            </Link>
           </li>
           <li>
-            <a>Gallery</a>
+            <Link to="pictures" smooth={true} offset={-50} duration={500}>
+              Gallery
+            </Link>
           </li>
           <li>
-            <a>Contact Us</a>
+            <Link to="testimonials" smooth={true} offset={-100} duration={500}>
+              Testimonials
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} offset={-50} duration={500}>
+              Contact Us
+            </Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Get a free quote</a>
+        <Link to="contact" smooth={true} offset={-50} duration={500}>
+          <a className="btn">Get a free quote</a>
+        </Link>
       </div>
     </div>
   );
